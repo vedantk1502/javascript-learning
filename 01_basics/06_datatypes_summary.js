@@ -14,9 +14,9 @@ let userEmail;
 const id = Symbol("123")
 const anotherId = Symbol("123")
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
-const bigNumber = 4654552154554n
+// const bigNumber = 4654552154554n
 
 
 //Reference (Non primitive)
@@ -24,3 +24,14 @@ const bigNumber = 4654552154554n
 // Array, Objects, Functions
 
 const heros = ["shaktiman","naagraj", "doga"]
+
+let myObj = {
+    name: "Vedant",
+    age: 25,
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof anotherId);
