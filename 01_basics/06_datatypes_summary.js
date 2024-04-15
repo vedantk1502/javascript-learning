@@ -35,3 +35,24 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+// Stack(Premitive), Heap (Non-Primitive)
+
+// Stack (Creates the reference and make changes in the reference, doesn't change the original value)
+let myYoutubename = "vedantkulkarni"
+let anothername = myYoutubename
+anothername = "vedantwebsite"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// Heap (Creates the reference and make changes in both the reference and original value)
+let userOne = {
+    email: "vedant@gmail.com",
+    upi: "vedant@ybl"
+}
+
+let userTwo = userOne 
+userTwo.email = "vedant@yahoo.com"
+console.log(userOne.email);
+console.log(userTwo.email);
