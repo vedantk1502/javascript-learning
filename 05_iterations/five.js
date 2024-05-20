@@ -1,4 +1,4 @@
-const coding = ["js", "ruby", "java", "python", "cpp"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (item) {
 //     console.log(item);
@@ -36,5 +36,6 @@ const myCoding = [
 
 myCoding.forEach( (item) => {
     
-    console.log(item.langName);
+    // console.log(item.langName);
 } )
+
